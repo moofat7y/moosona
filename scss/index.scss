@@ -122,9 +122,7 @@ section {
     .my-photo {
       width: 290px;
       height: 310px;
-      background-image: url("/photos/1619106575906.jpg");
-      background-position: center;
-      background-size: cover;
+      overflow: hidden;
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
     }
