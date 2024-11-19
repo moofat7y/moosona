@@ -10777,7 +10777,7 @@ section {
 }
 .about-div .contener .about .photo .img {
   border-radius: 20px;
-  background-image: url("/photos/about.jpg");
+  background-image: url("/photos/about.JPG");
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
