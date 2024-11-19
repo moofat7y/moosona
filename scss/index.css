@@ -10782,6 +10782,8 @@ section {
   background-image: url("/photos/about.jpg");
   background-position: center;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
   width: 90%;
   height: 100%;
