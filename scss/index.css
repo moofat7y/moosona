@@ -10695,9 +10695,7 @@ section {
 }
 
 .home-div .home {
-  width: 40%;
   min-width: 300px;
-  margin: auto;
 }
 .home-div .home .my-photo {
   width: 290px;
@@ -10777,13 +10775,13 @@ section {
 }
 .about-div .contener .about .photo .img {
   border-radius: 20px;
-  background-image: url("/photos/about.JPG");
+  background-image: url("/photos/3.jpg");
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  width: 90%;
+  width: 100%;
   height: 100%;
 }
 .about-div .contener .about .photo .img .slider {
@@ -10892,6 +10890,13 @@ section {
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.blog-list .blog img {
+  transition: 0.3s ease-in-out;
+}
+.blog-list .blog:hover img {
+  transform: scale(1.1);
 }
 
 @keyframes show {
